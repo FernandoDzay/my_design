@@ -1,0 +1,27 @@
+main .theride-section {
+  background-color: #00132a; }
+
+.card-car-container {
+  display: flex; }
+  .card-car-container .text-card-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2; }
+    .card-car-container .text-card-container .text {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 13px; }
+      .card-car-container .text-card-container .text .safe {
+        color: white;
+        font-size: 18px;
+        margin: 0; }
+      .card-car-container .text-card-container .text .cancun {
+        color: white;
+        font-size: 1.5em;
+        margin: 0; }
+    .card-car-container .text-card-container .card {
+      width: 320px;
+      height: 400px;
+      background-color: red; }
+  .card-car-container .car {
+    flex: 1; }

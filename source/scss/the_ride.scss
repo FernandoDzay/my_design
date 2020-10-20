@@ -1,0 +1,36 @@
+main .theride-section{
+	background-color: #00132a;
+}
+
+.card-car-container{
+	display: flex;
+	//justify-content: center;
+	.text-card-container{
+		display: flex;
+		flex-direction: column;
+		flex: 2;
+		.text{
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 13px;
+			.safe{
+				color: white;
+				font-size: 18px;
+				margin: 0;
+			}
+			.cancun{
+				color: white;
+				 font-size: 1.5em;
+				 margin: 0;
+			}
+		}
+		.card{
+			width: 320px;
+			height: 400px;
+			background-color: red;
+		}
+	}
+	.car{
+		flex: 1;
+	}
+}
