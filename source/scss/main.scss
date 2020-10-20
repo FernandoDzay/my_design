@@ -1,3 +1,8 @@
+@import "header";
+
+
+
+
 html, body {
     width: 100%;
     height: 100%;
@@ -21,89 +26,3 @@ body {
     grid-template-columns: 100%;
 }
 
-.phone-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    .phone-icon{
-        svg{
-            color: #ffca00;
-        }       
-    }
-    .phone-number{
-        color:#ffffff;
-    }
-}
-
-.lang-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-    margin-left: 30px;
-    .lang-icon{
-        margin-right: 10px;
-    }
-    .lang-text{
-        color:#ffffff;
-    }
-}
-
-h1 {
-    font-size: 11pt;
-    margin: 0px;
-    color: #7c848b;
-    line-height: 1.5;
-    margin: 0;
-}
-
-header 
-.container{
-
-	.box {
-	    height: 100%;
-	    display: flex;
-	    flex-direction: row;
-	    flex-wrap: wrap;
-	    padding-top: 15px;
-	    padding-bottom: 15px;
-	    .left-col{
-			width: 60%;
-		}
-		.right-col {
-			width: 40%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: flex-end;
-            align-items: stretch;
-            align-content: stretch;
-
-            .call_us{
-                margin-right: 17px;
-               color: #ffca00; 
-            }
-            
-
-		}
-		
-	}
-}
-
-header{
-    background-color: #00132a;
-    nav{
-        a{
-            color: white !important;
-        }
-    }
-}
-
-
-header nav div#navbarNav {
-    justify-content: flex-end;
-}
-
-
-//bootstrap
-.navbar-light .navbar-toggler-icon {    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
