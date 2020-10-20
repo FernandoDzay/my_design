@@ -4,6 +4,11 @@
     <title>Cancun transportation</title>
     <link rel="stylesheet" type="text/css" href="assets/css/base.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <!--<meta charset="UTF-8">-->
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
@@ -21,28 +26,63 @@
     				</div>
     				<div class="phone-container">
     					<div class="phone-icon">
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13" class="flag">
-    							<use xlink:href="/assets/img/icons.svg#phone"></use>
-    						</svg> 
+    						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+    							<use xlink:href="assets/img/icons.svg#phone"></use></svg>
     					</div>
     					<div class="phone-number">
     						+52 (998) 980 0259
     					</div>
     				</div>
-    				<div class="lang">
+    				<div class="lang-container">
+    					<div class="lang-icon">
+    						<svg xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14">
+                                <use xlink:href="assets/img/icons.svg#mexFlag"></use></svg>
+    					</div>
+    					<div class="lang-text">
+    						<span>ES</span>
+    					</div>
+
     					<!--<a href="/es">
     						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 14" class="flag">
     							<use xlink:href="/assets/img/icons.svg#flag-mexico"></use>
     						</svg> 
     						 ES
     					</a>-->
-    					<span>++ ES</span>
+    					
     				</div>
     			</div>	
     		</div>
     	</div>
-    </header>
 
+        <div class="container">
+            <!--navbar bootsrap-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="222" viewBox="0 0 222 62">
+                                <use xlink:href="assets/img/icons.svg#cancun"></use></svg>
+            </a>
+            <button id="nav-toggle-button" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Cancun Airport Transportation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shuttle from to Cancun</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Transportation from Cancun to Playa del Carmen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+            </nav>
+        </div>
+    </header>
 
 
     <main></main>

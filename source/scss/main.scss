@@ -22,15 +22,6 @@ body {
     background-color: #fff;
 }
 
-head {
-    display: none;
-}
-
-div{
-	display: block;
-}
-
-
 .layout {
     min-height: 100%;
     display: grid;
@@ -39,9 +30,30 @@ div{
 }
 
 .phone-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     .phone-icon{
-            width: 14px;
+        svg{
             color: #ffca00;
+        }       
+    }
+    .phone-number{
+        color:#ffffff;
+    }
+}
+
+.lang-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    margin-left: 30px;
+    .lang-icon{
+        margin-right: 10px;
+    }
+    .lang-text{
+        color:#ffffff;
     }
 }
 
@@ -50,15 +62,7 @@ h1 {
     margin: 0px;
     color: #7c848b;
     line-height: 1.5;
-    //font-family: Arial;
-
-    /*font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 25px;
-*/
-
+    margin: 0;
 }
 
 header 
@@ -84,6 +88,7 @@ header
             align-content: stretch;
 
             .call_us{
+                margin-right: 17px;
                color: #ffca00; 
             }
             
@@ -95,5 +100,18 @@ header
 
 header{
     background-color: #00132a;
-
+    nav{
+        a{
+            color: white !important;
+        }
+    }
 }
+
+
+header nav div#navbarNav {
+    justify-content: flex-end;
+}
+
+
+//bootstrap
+.navbar-light .navbar-toggler-icon {    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }

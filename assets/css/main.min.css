@@ -18,33 +18,37 @@ body {
   text-align: left;
   background-color: #fff; }
 
-head {
-  display: none; }
-
-div {
-  display: block; }
-
 .layout {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%; }
 
-.phone-container .phone-icon {
-  width: 14px;
-  color: #ffca00; }
+.phone-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .phone-container .phone-icon svg {
+    color: #ffca00; }
+  .phone-container .phone-number {
+    color: #ffffff; }
+
+.lang-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 30px; }
+  .lang-container .lang-icon {
+    margin-right: 10px; }
+  .lang-container .lang-text {
+    color: #ffffff; }
 
 h1 {
   font-size: 11pt;
   margin: 0px;
   color: #7c848b;
   line-height: 1.5;
-  /*font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 25px;
-*/ }
+  margin: 0; }
 
 header
 .container .box {
@@ -68,7 +72,16 @@ header
     align-content: stretch; }
     header
 .container .box .right-col .call_us {
+      margin-right: 17px;
       color: #ffca00; }
 
 header {
   background-color: #00132a; }
+  header nav a {
+    color: white !important; }
+
+header nav div#navbarNav {
+  justify-content: flex-end; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
