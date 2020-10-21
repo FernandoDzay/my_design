@@ -9,6 +9,8 @@
 
 .reviews-container{
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 }
 
@@ -30,16 +32,19 @@
 
 
 .card{
-background: #EDE7F6;
-  padding: 1.5rem;
-  border-radius: 1rem;
+	//background: #EDE7F6;
+  	padding: 1.5rem;
+  	border-radius: 1rem;
 	border: 2px solid black;
 }
 
 .card-content{
-	width: 100px;
-	height: 100px;
-	background-color: orange;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	p{
+		text-align: center;
+	}
 }
 
 

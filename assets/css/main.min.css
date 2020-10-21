@@ -96,6 +96,8 @@ main .theride-section {
 
 .reviews-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center; }
 
 .coments-container {
@@ -105,15 +107,16 @@ main .theride-section {
   grid-gap: 50px; }
 
 .card {
-  background: #EDE7F6;
   padding: 1.5rem;
   border-radius: 1rem;
   border: 2px solid black; }
 
 .card-content {
-  width: 100px;
-  height: 100px;
-  background-color: orange; }
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .card-content p {
+    text-align: center; }
 
 html, body {
   width: 100%;
