@@ -88,6 +88,9 @@ main .theride-section {
   .card-car-container .car {
     flex: 1; }
 
+.coment-section {
+  background-color: #f6f6f6; }
+
 .vehicles-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -106,7 +109,18 @@ main .theride-section {
   justify-items: center;
   grid-gap: 50px; }
 
+.card-content div {
+  display: flex;
+  flex: 1; }
+
+.card-content div div {
+  display: flex;
+  flex-direction: column; }
+  .card-content div div p {
+    align-self: start; }
+
 .card {
+  background: white;
   padding: 1.5rem;
   border-radius: 1rem;
   border: 2px solid black; }
@@ -117,6 +131,29 @@ main .theride-section {
   align-items: center; }
   .card-content p {
     text-align: center; }
+  .card-content .google {
+    align-self: start; }
+
+.paypal-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; }
+
+.paypal-items-container:nth-child(0) {
+  flex: 1; }
+
+.paypal-items-container:nth-child(1) {
+  flex: 1; }
+
+.paypal-items-container:nth-child(2) {
+  flex: 1; }
+
+.paypal-items-container:nth-child(3) {
+  flex: 1; }
+
+.paypal-items-container:nth-child(4) {
+  flex: 1; }
 
 html, body {
   width: 100%;

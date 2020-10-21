@@ -1,3 +1,6 @@
+.coment-section {
+  background-color: #f6f6f6; }
+
 .vehicles-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -16,7 +19,18 @@
   justify-items: center;
   grid-gap: 50px; }
 
+.card-content div {
+  display: flex;
+  flex: 1; }
+
+.card-content div div {
+  display: flex;
+  flex-direction: column; }
+  .card-content div div p {
+    align-self: start; }
+
 .card {
+  background: white;
   padding: 1.5rem;
   border-radius: 1rem;
   border: 2px solid black; }
@@ -27,3 +41,5 @@
   align-items: center; }
   .card-content p {
     text-align: center; }
+  .card-content .google {
+    align-self: start; }
