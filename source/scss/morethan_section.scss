@@ -1,0 +1,29 @@
+.morethan-section-items{
+	display: grid;
+	grid-template-columns: 5fr 7fr;
+	//grid-template-areas: 
+	//'image text text';
+
+	.left-col{
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.right-col{
+		div{
+			display: flex;
+		}
+		p{
+			strong{
+				font-size: 30px;
+			}
+		}
+	}
+}
+
+.view-destinations{
+	color: #0064ff;
+}
+
