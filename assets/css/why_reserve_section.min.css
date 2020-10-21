@@ -1,0 +1,8 @@
+.why-reserve-section .container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .why-reserve-section .container div strong {
+    font-size: 25px; }
+  .why-reserve-section .container div .text {
+    text-align: center; }

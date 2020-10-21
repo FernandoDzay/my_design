@@ -1,0 +1,7 @@
+.welcome-section-items {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  grid-gap: 50px; }
+  .welcome-section-items .left-col img {
+    max-width: 100%;
+    height: auto; }

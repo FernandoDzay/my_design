@@ -1,0 +1,10 @@
+.why-reserve-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; }
+  .why-reserve-items .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .why-reserve-items .card p {
+      text-align: center; }

@@ -1,0 +1,20 @@
+.making {
+  display: flex;
+  justify-content: center; }
+  .making p {
+    font-size: 25px; }
+
+.vans-section-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; }
+  .vans-section-items .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .vans-section-items .card p {
+      align-self: flex-start; }
+    .vans-section-items .card div {
+      display: flex; }
+      .vans-section-items .card div p strong {
+        color: red; }

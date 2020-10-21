@@ -169,6 +169,81 @@ main .theride-section {
 .view-destinations {
   color: #0064ff; }
 
+.making {
+  display: flex;
+  justify-content: center; }
+  .making p {
+    font-size: 25px; }
+
+.vans-section-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; }
+  .vans-section-items .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .vans-section-items .card p {
+      align-self: flex-start; }
+    .vans-section-items .card div {
+      display: flex; }
+      .vans-section-items .card div p strong {
+        color: red; }
+
+.popular {
+  display: flex;
+  justify-content: center; }
+  .popular p {
+    font-size: 25px; }
+
+.popular-section-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; }
+  .popular-section-items .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .popular-section-items .card p {
+      align-self: flex-start; }
+    .popular-section-items .card div {
+      display: flex; }
+      .popular-section-items .card div div {
+        display: flex; }
+        .popular-section-items .card div div div {
+          display: flex;
+          flex-direction: column; }
+      .popular-section-items .card div p strong {
+        color: red; }
+
+.welcome-section-items {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  grid-gap: 50px; }
+  .welcome-section-items .left-col img {
+    max-width: 100%;
+    height: auto; }
+
+.why-reserve-section .container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .why-reserve-section .container div strong {
+    font-size: 25px; }
+  .why-reserve-section .container div .text {
+    text-align: center; }
+
+.why-reserve-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; }
+  .why-reserve-items .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .why-reserve-items .card p {
+      text-align: center; }
+
 html, body {
   width: 100%;
   height: 100%; }
