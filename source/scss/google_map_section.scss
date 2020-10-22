@@ -1,0 +1,101 @@
+.google-map-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-areas:
+        "customer_support postal_address attention_schedule"
+        "map map map"
+        "places places places";
+
+    h3{
+		color: #001a29;
+		font-family: Arial;
+		font-size: 20px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+
+	p{
+	    color: #525966;
+		font-family: Arial;
+		font-size: 15px;
+		margin: 0;
+	}
+
+
+    .customer_support{
+	    display: grid;
+	    grid-area: customer_support;    	
+    }
+
+
+    .postal_address {
+	    display: grid;
+	    grid-area: postal_address;
+
+	}
+
+
+	.attention_schedule{
+		display: grid;
+	    grid-area: attention_schedule;
+	}
+
+	.map{
+		display: grid;
+	    grid-area: map;
+	}
+
+
+	.places{
+		display: grid;
+	    grid-area: places;
+
+	    h3{
+	    	margin-bottom: 30px;
+	    }
+
+	    .place{
+	    	display: grid;
+		    grid-template-columns: 1fr 1fr 1fr;
+		    column-gap: 30px;
+		    row-gap: 30px;
+
+		    .place-item{
+		    	display: grid;
+
+		    	.title{
+		    		display: flex;
+					align-items: center;
+					column-gap: 10px;
+					margin-bottom: 15px;
+
+					svg{
+					    width: 14px;
+						height: 14px;
+						color: #0064ff;
+					}
+					p{
+						color: #001a29;
+					    font-family: Arial;
+					    font-weight: 700;
+					    margin: 0;
+					    font-size: 18px;
+					}
+
+		    	}
+
+		    	p{
+		    		color: #525966;
+				    font-family: Arial;
+				    font-size: 14px;
+		    	}
+		    }
+	    }
+
+	}
+
+
+}
+

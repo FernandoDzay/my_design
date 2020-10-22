@@ -1,0 +1,50 @@
+.text-center {
+  text-align: center !important; }
+
+.subtitle {
+  color: #001a29;
+  font-size: 16pt;
+  margin-bottom: 15px;
+  line-height: 1.5; }
+
+.faqs h2 {
+  border-radius: 5px;
+  border: 1px solid #dcdfed;
+  background-color: #f9f9fc;
+  color: #001a29;
+  padding: 15px 15px;
+  font-size: 13pt;
+  margin-bottom: 10px;
+  line-height: 1.5; }
+
+.faqs > div {
+  background-color: #f9f9fc;
+  padding: 15px 15px 15px 15px; }
+
+.faqs {
+  margin-bottom: 25px; }
+
+.content p {
+  color: #001a29;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400; }
+
+.table_home_prices caption {
+  background-color: black;
+  font-size: 11pt;
+  padding: 16px; }
+
+.table_home_prices thead {
+  background-color: #f9f9fc; }
+
+.table_home_prices tbody tr:nth-of-type(odd) {
+  border: 1px solid #dcdfed;
+  background-color: #f2f3f8;
+  border-radius: 5px;
+  color: #001a29; }
+
+.table th, .table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6; }

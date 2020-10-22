@@ -1,0 +1,31 @@
+footer {
+  background-color: #00132a; }
+
+.relativepos {
+  position: relative; }
+
+.relativepos .absolutepos {
+  position: absolute;
+  top: -37px;
+  right: 579px; }
+
+.footer-grid {
+  /*display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;*/
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px; }
+
+.footer-grid .schema_footer {
+  font-size: 10pt;
+  padding-right: 10px;
+  line-height: 1.8; }
+
+.footer-grid .two-column, .footer-grid .three-column, .footer-grid .four-column, .footer-grid .five-column {
+  padding: 0px 5px 0px 0px; }

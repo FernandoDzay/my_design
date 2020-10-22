@@ -244,6 +244,185 @@ main .theride-section {
     .why-reserve-items .card p {
       text-align: center; }
 
+.discover-our-ride-section {
+  background-color: #f6f6f6; }
+
+.card-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; }
+  .card-items .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .card-items .card p {
+      text-align: center; }
+
+.google-map-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-areas: "customer_support postal_address attention_schedule" "map map map" "places places places"; }
+  .google-map-items h3 {
+    color: #001a29;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .google-map-items p {
+    color: #525966;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 0; }
+  .google-map-items .customer_support {
+    display: grid;
+    grid-area: customer_support; }
+  .google-map-items .postal_address {
+    display: grid;
+    grid-area: postal_address; }
+  .google-map-items .attention_schedule {
+    display: grid;
+    grid-area: attention_schedule; }
+  .google-map-items .map {
+    display: grid;
+    grid-area: map; }
+  .google-map-items .places {
+    display: grid;
+    grid-area: places; }
+    .google-map-items .places h3 {
+      margin-bottom: 30px; }
+    .google-map-items .places .place {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 30px;
+      row-gap: 30px; }
+      .google-map-items .places .place .place-item {
+        display: grid; }
+        .google-map-items .places .place .place-item .title {
+          display: flex;
+          align-items: center;
+          column-gap: 10px;
+          margin-bottom: 15px; }
+          .google-map-items .places .place .place-item .title svg {
+            width: 14px;
+            height: 14px;
+            color: #0064ff; }
+          .google-map-items .places .place .place-item .title p {
+            color: #001a29;
+            font-family: Arial;
+            font-weight: 700;
+            margin: 0;
+            font-size: 18px; }
+        .google-map-items .places .place .place-item p {
+          color: #525966;
+          font-family: Arial;
+          font-size: 14px; }
+
+.arrow-plain-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-areas: "imgg imgg" "cancun_air cancun_air" "parrgf parrgf"; }
+  .arrow-plain-items img {
+    grid-area: imgg;
+    justify-self: center; }
+  .arrow-plain-items h3 {
+    grid-area: cancun_air;
+    text-align: center; }
+  .arrow-plain-items div {
+    grid-area: parrgf; }
+
+.parrafos {
+  /*display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;*/
+  display: flex; }
+
+.text-center {
+  text-align: center !important; }
+
+.subtitle {
+  color: #001a29;
+  font-size: 16pt;
+  margin-bottom: 15px;
+  line-height: 1.5; }
+
+.faqs h2 {
+  border-radius: 5px;
+  border: 1px solid #dcdfed;
+  background-color: #f9f9fc;
+  color: #001a29;
+  padding: 15px 15px;
+  font-size: 13pt;
+  margin-bottom: 10px;
+  line-height: 1.5; }
+
+.faqs > div {
+  background-color: #f9f9fc;
+  padding: 15px 15px 15px 15px; }
+
+.faqs {
+  margin-bottom: 25px; }
+
+.content p {
+  color: #001a29;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400; }
+
+.table_home_prices caption {
+  background-color: black;
+  font-size: 11pt;
+  padding: 16px; }
+
+.table_home_prices thead {
+  background-color: #f9f9fc; }
+
+.table_home_prices tbody tr:nth-of-type(odd) {
+  border: 1px solid #dcdfed;
+  background-color: #f2f3f8;
+  border-radius: 5px;
+  color: #001a29; }
+
+.table th, .table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6; }
+
+footer {
+  background-color: #00132a; }
+
+.relativepos {
+  position: relative; }
+
+.relativepos .absolutepos {
+  position: absolute;
+  top: -37px;
+  right: 579px; }
+
+.footer-grid {
+  /*display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;*/
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px; }
+
+.footer-grid .schema_footer {
+  font-size: 10pt;
+  padding-right: 10px;
+  line-height: 1.8; }
+
+.footer-grid .two-column, .footer-grid .three-column, .footer-grid .four-column, .footer-grid .five-column {
+  padding: 0px 5px 0px 0px; }
+
 html, body {
   width: 100%;
   height: 100%; }

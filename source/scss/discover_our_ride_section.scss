@@ -1,0 +1,17 @@
+ .discover-our-ride-section{
+    background-color: #f6f6f6;
+ }
+
+ .card-items{
+ 	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	.card{
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	p{
+    		text-align: center;
+    	}
+    }
+}

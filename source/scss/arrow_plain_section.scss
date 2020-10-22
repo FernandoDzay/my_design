@@ -1,0 +1,35 @@
+.arrow-plain-items{
+
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-areas:
+        "imgg imgg"
+        "cancun_air cancun_air"
+        "parrgf parrgf";
+
+
+
+	img{
+	    grid-area: imgg; 
+	    justify-self: center;
+	}
+
+	h3{
+	    grid-area: cancun_air;
+	    text-align: center; 
+	}
+
+	div{
+	    grid-area: parrgf; 
+	}
+}
+
+
+.parrafos{
+	/*display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;*/
+    display: flex;
+}
