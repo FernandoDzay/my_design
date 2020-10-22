@@ -29,3 +29,20 @@ footer {
 
 .footer-grid .two-column, .footer-grid .three-column, .footer-grid .four-column, .footer-grid .five-column {
   padding: 0px 5px 0px 0px; }
+
+.gray-bg {
+  background-color: #f6f6f6; }
+
+.social-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 10pt;
+  justify-content: end; }
+
+.social-footer ul {
+  margin: 0px;
+  float: right; }
+
+.social-footer ul li {
+  padding-right: 15px;
+  display: inline; }
