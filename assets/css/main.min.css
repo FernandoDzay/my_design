@@ -381,16 +381,50 @@ p{
   .why-reserve-section .container div .text {
     text-align: center; }
 
-.why-reserve-items {
+.why-reserve-items-section .container .why-reserve-items {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px; }
-  .why-reserve-items .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .why-reserve-items .card p {
-      text-align: center; }
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  column-gap: 20px;
+  margin-top: 50px; }
+  .why-reserve-items-section .container .why-reserve-items .card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 15px;
+    min-height: 372px; }
+    .why-reserve-items-section .container .why-reserve-items .card .top {
+      width: 52px;
+      height: 52px;
+      margin-bottom: 30px; }
+      .why-reserve-items-section .container .why-reserve-items .card .top svg {
+        vertical-align: middle; }
+    .why-reserve-items-section .container .why-reserve-items .card .bot {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-between; }
+      .why-reserve-items-section .container .why-reserve-items .card .bot p {
+        text-align: center;
+        font-size: 14px; }
+      .why-reserve-items-section .container .why-reserve-items .card .bot p:first-child {
+        color: #001a29;
+        font-size: 11pt;
+        text-align: center; }
+      .why-reserve-items-section .container .why-reserve-items .card .bot a {
+        border-radius: 23px;
+        background-color: #00132a;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+        height: 45px; }
 
 .discover-our-ride-section {
   background-color: #f6f6f6; }
