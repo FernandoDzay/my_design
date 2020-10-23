@@ -251,16 +251,76 @@ main .theride-section {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px; }
   .vans-section-items .card {
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 393px;
     display: flex;
     flex-direction: column;
-    align-items: center; }
-    .vans-section-items .card p {
-      align-self: flex-start; }
-    .vans-section-items .card div {
-      display: flex; }
-      .vans-section-items .card div p strong {
-        color: red; }
+    justify-content: space-between;
+    padding: 20px; }
+    .vans-section-items .card span {
+      color: #001a29;
+      font-family: Arial;
+      font-weight: 700;
+      font-size: 15px; }
+    .vans-section-items .card .btn-wrapper {
+      position: relative;
+      width: 100%; }
+      .vans-section-items .card .btn-wrapper .btn {
+        position: absolute;
+        border-radius: 28px;
+        background-color: #00132a;
+        display: grid;
+        font-weight: 700;
+        place-content: center;
+        width: 100%;
+        color: #ffffff; }
+    .vans-section-items .card .image {
+      height: 150px;
+      width: 200px;
+      display: grid;
+      place-content: center;
+      align-self: center; }
+    .vans-section-items .card .content {
+      display: flex;
+      flex-direction: column; }
+      .vans-section-items .card .content p {
+        color: #525966;
+        font-size: 11pt; }
+      .vans-section-items .card .content .description {
+        min-height: 72px; }
+      .vans-section-items .card .content .price {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        .vans-section-items .card .content .price p {
+          color: #525966;
+          font-family: Arial;
+          font-weight: 400;
+          font-size: 13px; }
+        .vans-section-items .card .content .price .value {
+          color: #0064ff;
+          font-family: Arial;
+          font-weight: 700;
+          font-size: 23px; }
 
+/*
+p{
+            align-self: flex-start;
+        }
+
+
+        div{
+            display: flex;
+            p{
+                strong{
+                    color: red;
+                }
+                
+            }
+        }*/
 .popular {
   display: flex;
   justify-content: center; }

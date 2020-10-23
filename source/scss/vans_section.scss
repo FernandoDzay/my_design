@@ -12,26 +12,101 @@
 	grid-gap: 30px;
 
 	.card{
-		display: flex;
-    	flex-direction: column;
-    	align-items: center;
+		box-shadow: 0 3px 25px rgba(0,0,0,0.16);
+        border-radius: 10px;
+        background-color: #ffffff;
+        height: 393px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
 
-    	p{
-    		align-self: flex-start;
-    	}
+        span{
+            color: #001a29;
+            font-family: Arial;
+            font-weight: 700;
+            font-size: 15px;
+        }
 
 
-    	div{
-    		display: flex;
-    		p{
-    			strong{
-    				color: red;
-    			}
-    			
-    		}
-    	}
+        .btn-wrapper{
+            position: relative;
+            width: 100%;
+            .btn{
+                position: absolute;
+                border-radius: 28px;
+                background-color: #00132a;
+                display: grid;
+                font-weight: 700;
+                place-content: center;
+                width: 100%;
+                color: #ffffff;
+            }
+        }
+
+    	
+        .image{
+            height: 150px;
+            width: 200px;
+            display: grid;
+            place-content: center;
+            align-self: center;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+
+            p{
+                color: #525966;
+                font-size: 11pt;
+            }
+
+            .description{
+                min-height: 72px;
+            }
+
+            .price{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                p{
+                    color: #525966;
+                    font-family: Arial;
+                    font-weight: 400;
+                    font-size: 13px;  
+                }
+
+                .value{
+                    color: #0064ff;
+                    font-family: Arial;
+                    font-weight: 700;
+                    font-size: 23px;
+                }
+
+            }
+
+        }
+
+
 	}
 }
 
 
+/*
+p{
+            align-self: flex-start;
+        }
 
+
+        div{
+            display: flex;
+            p{
+                strong{
+                    color: red;
+                }
+                
+            }
+        }*/
