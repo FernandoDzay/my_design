@@ -7,19 +7,36 @@
 .popular-section-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px; }
+  grid-gap: 25px; }
   .popular-section-items .card {
     display: flex;
     flex-direction: column;
-    align-items: center; }
-    .popular-section-items .card p {
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.4); }
+    .popular-section-items .card img {
+      width: 100%;
+      height: auto; }
+    .popular-section-items .card .mid, .popular-section-items .card .top {
+      padding: 15px; }
+    .popular-section-items .card .mid {
       align-self: flex-start; }
-    .popular-section-items .card div {
-      display: flex; }
-      .popular-section-items .card div div {
-        display: flex; }
-        .popular-section-items .card div div div {
-          display: flex;
-          flex-direction: column; }
-      .popular-section-items .card div p strong {
+    .popular-section-items .card a {
+      background-color: black;
+      width: 100%;
+      color: white;
+      border-radius: 25px; }
+    .popular-section-items .card .bot {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      width: 100%;
+      padding: 0px 15px 30px 15px; }
+      .popular-section-items .card .bot .left {
+        display: flex;
+        flex-direction: column;
+        width: 60%; }
+      .popular-section-items .card .bot .right {
+        width: 40%; }
+      .popular-section-items .card .bot p strong {
         color: red; }

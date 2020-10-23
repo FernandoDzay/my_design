@@ -29,7 +29,7 @@
   .card-content div div p {
     align-self: start; }
 
-.card {
+.vehicles-container .card {
   background: white;
   padding: 1.5rem;
   border-radius: 1rem;
