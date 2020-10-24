@@ -1,10 +1,19 @@
 main .theride-section{
-	background-color: #00132a;
+	position: relative;
+	.bg{
+		position: absolute;
+		background-color: #00132a;
+
+		width: 100%;
+		height: 675px;
+	}
 }
+
+
 
 .card-car-container{
 	display: flex;
-	//justify-content: center;
+	position: relative;
 	.text-card-container{
 		display: flex;
 		flex-direction: column;

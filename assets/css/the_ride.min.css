@@ -1,8 +1,14 @@
 main .theride-section {
-  background-color: #00132a; }
+  position: relative; }
+  main .theride-section .bg {
+    position: absolute;
+    background-color: #00132a;
+    width: 100%;
+    height: 675px; }
 
 .card-car-container {
-  display: flex; }
+  display: flex;
+  position: relative; }
   .card-car-container .text-card-container {
     display: flex;
     flex-direction: column;

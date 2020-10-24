@@ -2,71 +2,155 @@
 	background-color: #f6f6f6;
 }
 
-.vehicles-container{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	justify-items: center;
-	grid-gap: 50px;
-}
-
 .reviews-container{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px
 }
 
-.coments-container{
+
+
+.coment-section .container .vehicles-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    column-gap: 30px;
+
+    .card{
+        display: grid;
+        grid-template-rows: auto 1fr;
+        align-items: center;
+        justify-items: center;
+        align-items: center;
+        box-shadow: 0 3px 25px rgba(0,0,0,0.11);
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 15px 50px 33px 50px;
+
+
+        .top{
+            img{
+                vertical-align: middle;
+                height: 100%
+            }
+            .plain{
+            	padding-top: 6px;
+            }
+            .van{
+            	padding-top: 20px;
+            }
+            .camioneta{
+            	padding-top: 36px;
+            }
+        }
+
+
+        .bot{
+            display: flex;
+            flex-direction: column;
+            height: 150px;
+            padding-top: 20px;
+
+            
+            div{
+            	
+                color: #001a29;
+                font-size: 12pt;
+                text-align: center;
+                margin: 0;
+                flex: 1;
+            }
+
+            a{
+                border-radius: 23px;
+                background-color: #00132a;
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                color: #ffffff;
+                height: 45px;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+.coment-container{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	justify-items: center;
-	grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-items: stretch;
+    align-items: stretch;
+
+    .card{
+    	display: flex;
+	    flex-direction: column;
+	    row-gap: 20px;
+	    position: relative;
+	    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+	    border-radius: 10px;
+	    background-color: #fff;
+	    padding: 25px 20px 20px;
+	    margin-bottom: 25px;
+
+	    .top{
+	    	display: flex;
+		    flex-direction: row;
+		    flex-wrap: wrap;
+		    justify-content: space-between;
+		    align-items: stretch;
+		    align-content: stretch;
+	    	.left{
+	    		display: flex;
+    			column-gap: 15px;
+    			.image{
+    				width: 53px;
+    				height: 53px;
+    				img{
+    					width: 100%;
+					    max-width: 53px;
+					    border-radius: 50%;
+    				}
+    			}
+
+    			p{
+    				color: #001a29;
+				    line-height: 1.2;
+				    font-weight: bold;
+				    span{
+				    	font-size: 10pt;
+					    font-weight: normal;
+					    color: #90929a;
+					    svg{
+					    	width: 18px;
+						    margin-right: 2px;
+						    color: #f7ce58;
+					    }
+				    }
+    			}
+
+	    	}
+	    }
+
+	    .mid{
+
+	    }
+
+    }
+
+
 }
-
-
-.card-content div{
-	display: flex;
-	flex: 1;
-}
-
-
-.card-content div div{
-	display: flex;
-	flex-direction: column;
-	p{
-		align-self: start;
-	}
-}
-
-
-
-
-
-
-
-.vehicles-container .card{
-	background: white;
-  	padding: 1.5rem;
-  	border-radius: 1rem;
-	border: 2px solid black;
-
-
-}
-
-.card-content{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	p{
-		text-align: center;
-	}
-	.google{
-		align-self: start;
-	}
-}
-
-
-
-
-
 
